@@ -1,8 +1,8 @@
 export default {
 	title: "Eleventy Base Blog v9",
-	url: "https://example.com/",
+	url: "https://cerberuswrites.github.io/devlogs/",
 	language: "en",
-	description: "I am writing about my experiences as a naval navel-gazer.",
+	description: "description here wahoo",
 	author: {
 		name: "Your Name Here",
 		email: "youremailaddress@example.com",
