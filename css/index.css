@@ -1,3 +1,4 @@
+/* This is an arbitrary CSS string added to the bundle */
 /* Defaults */
 :root {
 	--font-family: -apple-system, system-ui, sans-serif;
@@ -22,16 +23,16 @@
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--color-gray-20: #e0e0e0;
-		--color-gray-50: #C0C0C0;
-		--color-gray-90: #dad8d8;
+		--color-gray-20: #44444E;
+		--color-gray-50: #715A5A;
+		--color-gray-90: #D3DAD9;
 
 		/* --text-color is assigned to --color-gray-_ above */
-		--text-color-link: #1493fb;
-		--text-color-link-active: #6969f7;
-		--text-color-link-visited: #a6a6f8;
+		--text-color-link: #BC8F8F;
+		--text-color-link-active: #BC8F8F;
+		--text-color-link-visited: #BC8F8F;
 
-		--background-color: #15202b;
+		--background-color: #37353E;
 	}
 }
 
@@ -295,4 +296,21 @@ header {
 .post-metadata time {
 	margin-right: 1em;
 }
+/* Message Box */
+.message-box {
+	--color-message-box: #ffc;
 
+	display: block;
+	background-color: var(--color-message-box);
+	color: var(--color-gray-90);
+	padding: 1em 0.625em; /* 16px 10px /16 */
+}
+.message-box ol {
+	margin-top: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+	.message-box {
+		--color-message-box: #082840;
+	}
+}
