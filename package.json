@@ -1,5 +1,5 @@
 {
-	"name": "eleventy-base-blog",
+	"name": "devlogs",
 	"version": "9.0.0",
 	"description": "A starter repository for a blog web site using the Eleventy site generator.",
 	"type": "module",
@@ -27,7 +27,7 @@
 		"url": "https://opencollective.com/11ty"
 	},
 	"bugs": {
-		"url": "https://github.com/11ty/eleventy-base-blog/issues"
+		"url": "https://github.com/cerberuswrites/devlogs/issues"
 	},
 	"homepage": "https://github.com/cerberuswrites/devlogs#readme",
 	"devDependencies": {
