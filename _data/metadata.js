@@ -1,5 +1,5 @@
 export default {
-	title: "Eleventy Base Blog v9",
+	title: "devlogs and whatnot",
 	url: "https://cerberuswrites.github.io/devlogs/",
 	language: "en",
 	description: "description here wahoo",
